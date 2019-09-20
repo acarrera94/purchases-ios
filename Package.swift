@@ -12,7 +12,7 @@ let package = Package(
         //    .package(url: "https://github.com/Quick/Nimble", .exact("8.0.4"))
     ],
     targets:[
-    .target(name: "Purchases", dependencies: [], path: "Purchases", exclude: [], sources: nil, publicHeadersPath: nil)
+    .target(name: "Purchases", dependencies: [], path: "Purchases", exclude: [], sources: nil, publicHeadersPath: "Public")
 //        .testTarget(name: "PurchasesTests", dependencies: []"Purchases"])
     ]
 )

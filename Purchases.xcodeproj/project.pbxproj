@@ -1,763 +1,503 @@
 // !$*UTF8*$!
 {
-   archiveVersion = "1";
-   objectVersion = "46";
-   objects = {
-      "OBJ_1" = {
-         isa = "PBXProject";
-         attributes = {
-            LastSwiftMigration = "9999";
-            LastUpgradeCheck = "9999";
-         };
-         buildConfigurationList = "OBJ_2";
-         compatibilityVersion = "Xcode 3.2";
-         developmentRegion = "en";
-         hasScannedForEncodings = "0";
-         knownRegions = (
-            "en"
-         );
-         mainGroup = "OBJ_5";
-         productRefGroup = "OBJ_49";
-         projectDirPath = ".";
-         targets = (
-            "Purchases::Purchases",
-            "Purchases::SwiftPMPackageDescription"
-         );
-      };
-      "OBJ_10" = {
-         isa = "PBXFileReference";
-         path = "RCCrossPlatformSupport.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_11" = {
-         isa = "PBXFileReference";
-         path = "RCOffering+Protected.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_12" = {
-         isa = "PBXFileReference";
-         path = "RCReceiptFetcher.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_13" = {
-         isa = "PBXFileReference";
-         path = "RCPromotionalOffer.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_14" = {
-         isa = "PBXFileReference";
-         path = "RCPurchases+Protected.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_15" = {
-         isa = "PBXFileReference";
-         path = "RCEntitlementInfo+Protected.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_16" = {
-         isa = "PBXFileReference";
-         path = "RCPromotionalOffer+Protected.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_17" = {
-         isa = "PBXFileReference";
-         path = "RCStoreKitWrapper.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_18" = {
-         isa = "PBXFileReference";
-         path = "NSLocale+RCExtensions.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_19" = {
-         isa = "PBXFileReference";
-         path = "RCAttributionFetcher.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_2" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_3",
-            "OBJ_4"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_20" = {
-         isa = "PBXFileReference";
-         path = "RCAttributionData.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_21" = {
-         isa = "PBXFileReference";
-         path = "RCIntroEligibility+Protected.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_22" = {
-         isa = "PBXFileReference";
-         path = "RCPurchaserInfo+Protected.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_23" = {
-         isa = "PBXFileReference";
-         path = "RCStoreKitRequestFetcher.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_24" = {
-         isa = "PBXFileReference";
-         path = "RCBackend.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_25" = {
-         isa = "PBXFileReference";
-         path = "RCHTTPClient.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_26" = {
-         isa = "PBXFileReference";
-         path = "RCUtils.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_27" = {
-         isa = "PBXFileReference";
-         path = "Info.plist";
-         sourceTree = "<group>";
-      };
-      "OBJ_28" = {
-         isa = "PBXFileReference";
-         path = "RCEntitlement+Protected.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_29" = {
-         isa = "PBXFileReference";
-         path = "NSLocale+RCExtensions.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_3" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_OBJC_ARC = "YES";
-            COMBINE_HIDPI_IMAGES = "YES";
-            COPY_PHASE_STRIP = "NO";
-            DEBUG_INFORMATION_FORMAT = "dwarf";
-            DYLIB_INSTALL_NAME_BASE = "@rpath";
-            ENABLE_NS_ASSERTIONS = "YES";
-            GCC_OPTIMIZATION_LEVEL = "0";
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE=1",
-               "DEBUG=1"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            ONLY_ACTIVE_ARCH = "YES";
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-DXcode"
-            );
-            PRODUCT_NAME = "$(TARGET_NAME)";
-            SDKROOT = "macosx";
-            SUPPORTED_PLATFORMS = (
-               "macosx",
-               "iphoneos",
-               "iphonesimulator",
-               "appletvos",
-               "appletvsimulator",
-               "watchos",
-               "watchsimulator"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE",
-               "DEBUG"
-            );
-            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-            USE_HEADERMAP = "NO";
-         };
-         name = "Debug";
-      };
-      "OBJ_30" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_31",
-            "OBJ_32",
-            "OBJ_33",
-            "OBJ_34",
-            "OBJ_35",
-            "OBJ_36",
-            "OBJ_37",
-            "OBJ_38"
-         );
-         name = "Public";
-         path = "Public";
-         sourceTree = "<group>";
-      };
-      "OBJ_31" = {
-         isa = "PBXFileReference";
-         path = "RCEntitlement.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_32" = {
-         isa = "PBXFileReference";
-         path = "RCEntitlementInfo.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_33" = {
-         isa = "PBXFileReference";
-         path = "RCEntitlementInfos.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_34" = {
-         isa = "PBXFileReference";
-         path = "RCIntroEligibility.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_35" = {
-         isa = "PBXFileReference";
-         path = "RCOffering.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_36" = {
-         isa = "PBXFileReference";
-         path = "RCPurchaserInfo.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_37" = {
-         isa = "PBXFileReference";
-         path = "RCPurchases.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_38" = {
-         isa = "PBXFileReference";
-         path = "RCPurchasesErrorUtils.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_39" = {
-         isa = "PBXFileReference";
-         path = "RCAttributionData.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_4" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_OBJC_ARC = "YES";
-            COMBINE_HIDPI_IMAGES = "YES";
-            COPY_PHASE_STRIP = "YES";
-            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-            DYLIB_INSTALL_NAME_BASE = "@rpath";
-            GCC_OPTIMIZATION_LEVEL = "s";
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE=1"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-DXcode"
-            );
-            PRODUCT_NAME = "$(TARGET_NAME)";
-            SDKROOT = "macosx";
-            SUPPORTED_PLATFORMS = (
-               "macosx",
-               "iphoneos",
-               "iphonesimulator",
-               "appletvos",
-               "appletvsimulator",
-               "watchos",
-               "watchsimulator"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE"
-            );
-            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-            USE_HEADERMAP = "NO";
-         };
-         name = "Release";
-      };
-      "OBJ_40" = {
-         isa = "PBXFileReference";
-         path = "RCAttributionFetcher.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_41" = {
-         isa = "PBXFileReference";
-         path = "RCBackend.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_42" = {
-         isa = "PBXFileReference";
-         path = "RCHTTPClient.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_43" = {
-         isa = "PBXFileReference";
-         path = "RCPromotionalOffer.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_44" = {
-         isa = "PBXFileReference";
-         path = "RCReceiptFetcher.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_45" = {
-         isa = "PBXFileReference";
-         path = "RCStoreKitRequestFetcher.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_46" = {
-         isa = "PBXFileReference";
-         path = "RCStoreKitWrapper.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_47" = {
-         isa = "PBXFileReference";
-         path = "RCUtils.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_48" = {
-         isa = "PBXGroup";
-         children = (
-         );
-         name = "Tests";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_49" = {
-         isa = "PBXGroup";
-         children = (
-            "Purchases::Purchases::Product"
-         );
-         name = "Products";
-         path = "";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "OBJ_5" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_6",
-            "OBJ_7",
-            "OBJ_48",
-            "OBJ_49",
-            "OBJ_51",
-            "OBJ_52",
-            "OBJ_53",
-            "OBJ_54",
-            "OBJ_55",
-            "OBJ_56",
-            "OBJ_57",
-            "OBJ_58",
-            "OBJ_59",
-            "OBJ_60",
-            "OBJ_61",
-            "OBJ_62",
-            "OBJ_63",
-            "OBJ_64"
-         );
-         path = "";
-         sourceTree = "<group>";
-      };
-      "OBJ_51" = {
-         isa = "PBXFileReference";
-         path = "Purchases";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_52" = {
-         isa = "PBXFileReference";
-         path = "Examples";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_53" = {
-         isa = "PBXFileReference";
-         path = "fastlane";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_54" = {
-         isa = "PBXFileReference";
-         path = "PurchasesTests";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_55" = {
-         isa = "PBXFileReference";
-         path = "Cartfile.resolved";
-         sourceTree = "<group>";
-      };
-      "OBJ_56" = {
-         isa = "PBXFileReference";
-         path = "RELEASING.md";
-         sourceTree = "<group>";
-      };
-      "OBJ_57" = {
-         isa = "PBXFileReference";
-         path = "LICENSE";
-         sourceTree = "<group>";
-      };
-      "OBJ_58" = {
-         isa = "PBXFileReference";
-         path = "CHANGELOG.md";
-         sourceTree = "<group>";
-      };
-      "OBJ_59" = {
-         isa = "PBXFileReference";
-         path = "README.md";
-         sourceTree = "<group>";
-      };
-      "OBJ_6" = {
-         isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         path = "Package.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_60" = {
-         isa = "PBXFileReference";
-         path = "Purchases.podspec";
-         sourceTree = "<group>";
-      };
-      "OBJ_61" = {
-         isa = "PBXFileReference";
-         path = "Cartfile.private";
-         sourceTree = "<group>";
-      };
-      "OBJ_62" = {
-         isa = "PBXFileReference";
-         path = "CONTRIBUTING.md";
-         sourceTree = "<group>";
-      };
-      "OBJ_63" = {
-         isa = "PBXFileReference";
-         path = "Gemfile";
-         sourceTree = "<group>";
-      };
-      "OBJ_64" = {
-         isa = "PBXFileReference";
-         path = "Gemfile.lock";
-         sourceTree = "<group>";
-      };
-      "OBJ_66" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_67",
-            "OBJ_68"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_67" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/Purchases/include"
-            );
-            INFOPLIST_FILE = "Purchases.xcodeproj/Purchases_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "Purchases";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            TARGET_NAME = "Purchases";
-         };
-         name = "Debug";
-      };
-      "OBJ_68" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/Purchases/include"
-            );
-            INFOPLIST_FILE = "Purchases.xcodeproj/Purchases_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "Purchases";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            TARGET_NAME = "Purchases";
-         };
-         name = "Release";
-      };
-      "OBJ_69" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_70",
-            "OBJ_71",
-            "OBJ_72",
-            "OBJ_73",
-            "OBJ_74",
-            "OBJ_75",
-            "OBJ_76",
-            "OBJ_77",
-            "OBJ_78",
-            "OBJ_79",
-            "OBJ_80",
-            "OBJ_81",
-            "OBJ_82",
-            "OBJ_83",
-            "OBJ_84",
-            "OBJ_85",
-            "OBJ_86",
-            "OBJ_87"
-         );
-      };
-      "OBJ_7" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_8"
-         );
-         name = "Sources";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_70" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_29";
-      };
-      "OBJ_71" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_31";
-      };
-      "OBJ_72" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_32";
-      };
-      "OBJ_73" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_33";
-      };
-      "OBJ_74" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_34";
-      };
-      "OBJ_75" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_35";
-      };
-      "OBJ_76" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_36";
-      };
-      "OBJ_77" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_37";
-      };
-      "OBJ_78" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_38";
-      };
-      "OBJ_79" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_39";
-      };
-      "OBJ_8" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_9",
-            "OBJ_10",
-            "OBJ_11",
-            "OBJ_12",
-            "OBJ_13",
-            "OBJ_14",
-            "OBJ_15",
-            "OBJ_16",
-            "OBJ_17",
-            "OBJ_18",
-            "OBJ_19",
-            "OBJ_20",
-            "OBJ_21",
-            "OBJ_22",
-            "OBJ_23",
-            "OBJ_24",
-            "OBJ_25",
-            "OBJ_26",
-            "OBJ_27",
-            "OBJ_28",
-            "OBJ_29",
-            "OBJ_30",
-            "OBJ_39",
-            "OBJ_40",
-            "OBJ_41",
-            "OBJ_42",
-            "OBJ_43",
-            "OBJ_44",
-            "OBJ_45",
-            "OBJ_46",
-            "OBJ_47"
-         );
-         name = "Purchases";
-         path = "Purchases";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_80" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_40";
-      };
-      "OBJ_81" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_41";
-      };
-      "OBJ_82" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_42";
-      };
-      "OBJ_83" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_43";
-      };
-      "OBJ_84" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_44";
-      };
-      "OBJ_85" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_45";
-      };
-      "OBJ_86" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_46";
-      };
-      "OBJ_87" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_47";
-      };
-      "OBJ_88" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
-      };
-      "OBJ_9" = {
-         isa = "PBXFileReference";
-         path = "RCEntitlementInfos+Protected.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_90" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_91",
-            "OBJ_92"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_91" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "4"
-            );
-            SWIFT_VERSION = "4.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_92" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "4"
-            );
-            SWIFT_VERSION = "4.0";
-         };
-         name = "Release";
-      };
-      "OBJ_93" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_94"
-         );
-      };
-      "OBJ_94" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_6";
-      };
-      "Purchases::Purchases" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_66";
-         buildPhases = (
-            "OBJ_69",
-            "OBJ_88"
-         );
-         dependencies = (
-         );
-         name = "Purchases";
-         productName = "Purchases";
-         productReference = "Purchases::Purchases::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "Purchases::Purchases::Product" = {
-         isa = "PBXFileReference";
-         path = "Purchases.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "Purchases::SwiftPMPackageDescription" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_90";
-         buildPhases = (
-            "OBJ_93"
-         );
-         dependencies = (
-         );
-         name = "PurchasesPackageDescription";
-         productName = "PurchasesPackageDescription";
-         productType = "com.apple.product-type.framework";
-      };
-   };
-   rootObject = "OBJ_1";
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		OBJ_70 /* NSLocale+RCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* NSLocale+RCExtensions.m */; };
+		OBJ_71 /* RCEntitlement.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* RCEntitlement.m */; };
+		OBJ_72 /* RCEntitlementInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* RCEntitlementInfo.m */; };
+		OBJ_73 /* RCEntitlementInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* RCEntitlementInfos.m */; };
+		OBJ_74 /* RCIntroEligibility.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* RCIntroEligibility.m */; };
+		OBJ_75 /* RCOffering.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* RCOffering.m */; };
+		OBJ_76 /* RCPurchaserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* RCPurchaserInfo.m */; };
+		OBJ_77 /* RCPurchases.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* RCPurchases.m */; };
+		OBJ_78 /* RCPurchasesErrorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* RCPurchasesErrorUtils.m */; };
+		OBJ_79 /* RCAttributionData.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* RCAttributionData.m */; };
+		OBJ_80 /* RCAttributionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* RCAttributionFetcher.m */; };
+		OBJ_81 /* RCBackend.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* RCBackend.m */; };
+		OBJ_82 /* RCHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* RCHTTPClient.m */; };
+		OBJ_83 /* RCPromotionalOffer.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* RCPromotionalOffer.m */; };
+		OBJ_84 /* RCReceiptFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* RCReceiptFetcher.m */; };
+		OBJ_85 /* RCStoreKitRequestFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* RCStoreKitRequestFetcher.m */; };
+		OBJ_86 /* RCStoreKitWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* RCStoreKitWrapper.m */; };
+		OBJ_87 /* RCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* RCUtils.m */; };
+		OBJ_94 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		OBJ_10 /* RCCrossPlatformSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCCrossPlatformSupport.h; sourceTree = "<group>"; };
+		OBJ_11 /* RCOffering+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCOffering+Protected.h"; sourceTree = "<group>"; };
+		OBJ_12 /* RCReceiptFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCReceiptFetcher.h; sourceTree = "<group>"; };
+		OBJ_13 /* RCPromotionalOffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCPromotionalOffer.h; sourceTree = "<group>"; };
+		OBJ_14 /* RCPurchases+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCPurchases+Protected.h"; sourceTree = "<group>"; };
+		OBJ_15 /* RCEntitlementInfo+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCEntitlementInfo+Protected.h"; sourceTree = "<group>"; };
+		OBJ_16 /* RCPromotionalOffer+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCPromotionalOffer+Protected.h"; sourceTree = "<group>"; };
+		OBJ_17 /* RCStoreKitWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCStoreKitWrapper.h; sourceTree = "<group>"; };
+		OBJ_18 /* NSLocale+RCExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLocale+RCExtensions.h"; sourceTree = "<group>"; };
+		OBJ_19 /* RCAttributionFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCAttributionFetcher.h; sourceTree = "<group>"; };
+		OBJ_20 /* RCAttributionData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCAttributionData.h; sourceTree = "<group>"; };
+		OBJ_21 /* RCIntroEligibility+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCIntroEligibility+Protected.h"; sourceTree = "<group>"; };
+		OBJ_22 /* RCPurchaserInfo+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCPurchaserInfo+Protected.h"; sourceTree = "<group>"; };
+		OBJ_23 /* RCStoreKitRequestFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCStoreKitRequestFetcher.h; sourceTree = "<group>"; };
+		OBJ_24 /* RCBackend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCBackend.h; sourceTree = "<group>"; };
+		OBJ_25 /* RCHTTPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCHTTPClient.h; sourceTree = "<group>"; };
+		OBJ_26 /* RCUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCUtils.h; sourceTree = "<group>"; };
+		OBJ_27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		OBJ_28 /* RCEntitlement+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCEntitlement+Protected.h"; sourceTree = "<group>"; };
+		OBJ_29 /* NSLocale+RCExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSLocale+RCExtensions.m"; sourceTree = "<group>"; };
+		OBJ_31 /* RCEntitlement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCEntitlement.m; sourceTree = "<group>"; };
+		OBJ_32 /* RCEntitlementInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCEntitlementInfo.m; sourceTree = "<group>"; };
+		OBJ_33 /* RCEntitlementInfos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCEntitlementInfos.m; sourceTree = "<group>"; };
+		OBJ_34 /* RCIntroEligibility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIntroEligibility.m; sourceTree = "<group>"; };
+		OBJ_35 /* RCOffering.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCOffering.m; sourceTree = "<group>"; };
+		OBJ_36 /* RCPurchaserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCPurchaserInfo.m; sourceTree = "<group>"; };
+		OBJ_37 /* RCPurchases.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCPurchases.m; sourceTree = "<group>"; };
+		OBJ_38 /* RCPurchasesErrorUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCPurchasesErrorUtils.m; sourceTree = "<group>"; };
+		OBJ_39 /* RCAttributionData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCAttributionData.m; sourceTree = "<group>"; };
+		OBJ_40 /* RCAttributionFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCAttributionFetcher.m; sourceTree = "<group>"; };
+		OBJ_41 /* RCBackend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCBackend.m; sourceTree = "<group>"; };
+		OBJ_42 /* RCHTTPClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCHTTPClient.m; sourceTree = "<group>"; };
+		OBJ_43 /* RCPromotionalOffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCPromotionalOffer.m; sourceTree = "<group>"; };
+		OBJ_44 /* RCReceiptFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCReceiptFetcher.m; sourceTree = "<group>"; };
+		OBJ_45 /* RCStoreKitRequestFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCStoreKitRequestFetcher.m; sourceTree = "<group>"; };
+		OBJ_46 /* RCStoreKitWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCStoreKitWrapper.m; sourceTree = "<group>"; };
+		OBJ_47 /* RCUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCUtils.m; sourceTree = "<group>"; };
+		OBJ_51 /* Purchases */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Purchases; sourceTree = SOURCE_ROOT; };
+		OBJ_52 /* Examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Examples; sourceTree = SOURCE_ROOT; };
+		OBJ_53 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = SOURCE_ROOT; };
+		OBJ_54 /* PurchasesTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PurchasesTests; sourceTree = SOURCE_ROOT; };
+		OBJ_55 /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		OBJ_56 /* RELEASING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RELEASING.md; sourceTree = "<group>"; };
+		OBJ_57 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_58 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		OBJ_59 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* Purchases.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Purchases.podspec; sourceTree = "<group>"; };
+		OBJ_61 /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
+		OBJ_62 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		OBJ_63 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		OBJ_64 /* Gemfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
+		OBJ_9 /* RCEntitlementInfos+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCEntitlementInfos+Protected.h"; sourceTree = "<group>"; };
+		"Purchases::Purchases::Product" /* Purchases.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Purchases.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_30 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_31 /* RCEntitlement.m */,
+				OBJ_32 /* RCEntitlementInfo.m */,
+				OBJ_33 /* RCEntitlementInfos.m */,
+				OBJ_34 /* RCIntroEligibility.m */,
+				OBJ_35 /* RCOffering.m */,
+				OBJ_36 /* RCPurchaserInfo.m */,
+				OBJ_37 /* RCPurchases.m */,
+				OBJ_38 /* RCPurchasesErrorUtils.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		OBJ_48 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Purchases::Purchases::Product" /* Purchases.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_48 /* Tests */,
+				OBJ_49 /* Products */,
+				OBJ_51 /* Purchases */,
+				OBJ_52 /* Examples */,
+				OBJ_53 /* fastlane */,
+				OBJ_54 /* PurchasesTests */,
+				OBJ_55 /* Cartfile.resolved */,
+				OBJ_56 /* RELEASING.md */,
+				OBJ_57 /* LICENSE */,
+				OBJ_58 /* CHANGELOG.md */,
+				OBJ_59 /* README.md */,
+				OBJ_60 /* Purchases.podspec */,
+				OBJ_61 /* Cartfile.private */,
+				OBJ_62 /* CONTRIBUTING.md */,
+				OBJ_63 /* Gemfile */,
+				OBJ_64 /* Gemfile.lock */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Purchases */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* Purchases */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* RCEntitlementInfos+Protected.h */,
+				OBJ_10 /* RCCrossPlatformSupport.h */,
+				OBJ_11 /* RCOffering+Protected.h */,
+				OBJ_12 /* RCReceiptFetcher.h */,
+				OBJ_13 /* RCPromotionalOffer.h */,
+				OBJ_14 /* RCPurchases+Protected.h */,
+				OBJ_15 /* RCEntitlementInfo+Protected.h */,
+				OBJ_16 /* RCPromotionalOffer+Protected.h */,
+				OBJ_17 /* RCStoreKitWrapper.h */,
+				OBJ_18 /* NSLocale+RCExtensions.h */,
+				OBJ_19 /* RCAttributionFetcher.h */,
+				OBJ_20 /* RCAttributionData.h */,
+				OBJ_21 /* RCIntroEligibility+Protected.h */,
+				OBJ_22 /* RCPurchaserInfo+Protected.h */,
+				OBJ_23 /* RCStoreKitRequestFetcher.h */,
+				OBJ_24 /* RCBackend.h */,
+				OBJ_25 /* RCHTTPClient.h */,
+				OBJ_26 /* RCUtils.h */,
+				OBJ_27 /* Info.plist */,
+				OBJ_28 /* RCEntitlement+Protected.h */,
+				OBJ_29 /* NSLocale+RCExtensions.m */,
+				OBJ_30 /* Public */,
+				OBJ_39 /* RCAttributionData.m */,
+				OBJ_40 /* RCAttributionFetcher.m */,
+				OBJ_41 /* RCBackend.m */,
+				OBJ_42 /* RCHTTPClient.m */,
+				OBJ_43 /* RCPromotionalOffer.m */,
+				OBJ_44 /* RCReceiptFetcher.m */,
+				OBJ_45 /* RCStoreKitRequestFetcher.m */,
+				OBJ_46 /* RCStoreKitWrapper.m */,
+				OBJ_47 /* RCUtils.m */,
+			);
+			path = Purchases;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"Purchases::Purchases" /* Purchases */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_66 /* Build configuration list for PBXNativeTarget "Purchases" */;
+			buildPhases = (
+				OBJ_69 /* Sources */,
+				OBJ_88 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Purchases;
+			productName = Purchases;
+			productReference = "Purchases::Purchases::Product" /* Purchases.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Purchases::SwiftPMPackageDescription" /* PurchasesPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_90 /* Build configuration list for PBXNativeTarget "PurchasesPackageDescription" */;
+			buildPhases = (
+				OBJ_93 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PurchasesPackageDescription;
+			productName = PurchasesPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Purchases" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"Purchases::Purchases" /* Purchases */,
+				"Purchases::SwiftPMPackageDescription" /* PurchasesPackageDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_70 /* NSLocale+RCExtensions.m in Sources */,
+				OBJ_71 /* RCEntitlement.m in Sources */,
+				OBJ_72 /* RCEntitlementInfo.m in Sources */,
+				OBJ_73 /* RCEntitlementInfos.m in Sources */,
+				OBJ_74 /* RCIntroEligibility.m in Sources */,
+				OBJ_75 /* RCOffering.m in Sources */,
+				OBJ_76 /* RCPurchaserInfo.m in Sources */,
+				OBJ_77 /* RCPurchases.m in Sources */,
+				OBJ_78 /* RCPurchasesErrorUtils.m in Sources */,
+				OBJ_79 /* RCAttributionData.m in Sources */,
+				OBJ_80 /* RCAttributionFetcher.m in Sources */,
+				OBJ_81 /* RCBackend.m in Sources */,
+				OBJ_82 /* RCHTTPClient.m in Sources */,
+				OBJ_83 /* RCPromotionalOffer.m in Sources */,
+				OBJ_84 /* RCReceiptFetcher.m in Sources */,
+				OBJ_85 /* RCStoreKitRequestFetcher.m in Sources */,
+				OBJ_86 /* RCStoreKitWrapper.m in Sources */,
+				OBJ_87 /* RCUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_94 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Purchases/include",
+				);
+				INFOPLIST_FILE = Purchases.xcodeproj/Purchases_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Purchases;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = Purchases;
+			};
+			name = Debug;
+		};
+		OBJ_68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Purchases/include",
+				);
+				INFOPLIST_FILE = Purchases.xcodeproj/Purchases_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Purchases;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = Purchases;
+			};
+			name = Release;
+		};
+		OBJ_91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "Purchases" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_66 /* Build configuration list for PBXNativeTarget "Purchases" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_67 /* Debug */,
+				OBJ_68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_90 /* Build configuration list for PBXNativeTarget "PurchasesPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_91 /* Debug */,
+				OBJ_92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
 }
