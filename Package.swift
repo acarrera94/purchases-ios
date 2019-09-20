@@ -11,6 +11,6 @@ let package = Package(
     ],
     dependencies: [],
     targets:[
-        .target(name: "Purchases", dependencies: [], path: "Purchases", exclude: [], sources: nil, publicHeadersPath: nil)
+        .target(name: "Purchases", dependencies: [], path: "Purchases", exclude: [], sources: nil, publicHeadersPath: "")
     ]
 )
